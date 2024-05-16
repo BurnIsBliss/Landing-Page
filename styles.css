@@ -120,13 +120,52 @@ a {
     padding: 0 55px;
 }
 
+.container_main {
+    padding: 96px 156px;
+}
+
 .container3 {
     display: flex;
-    justify-content: center;
+    padding: 64px 186px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    justify-content: space-between;
+}
+
+.container3_inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.call-to-sub {
+    text-align: left;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.button_call{
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 4px 34px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 600;
+    margin: 8px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 50px 0;
 }
